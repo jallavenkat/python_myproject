@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{% block title%}page title{% endblock %}</title>
+
+<META NAME="keywords" CONTENT="web designing companies, web development companies in Hyderabad, web designers in Hyderabad, web designing company in Hyderabad, web designing in hyderabad ,web development company in Hyderabad. top 10 web designing companies in Hyderabad.">
+
+<META NAME="description" CONTENT="Webmonx Web development company based in Hyderabad. We providing  complete web solutions for your business needs. Custom Web Application, E commerce Solutions, Payment gateway, CMS Development with affordable prices.">
+<meta name="ROBOTS" content="all, follow, index" />
+<meta name="ROBOTS" content="INDEX,FOLLOW" />
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<link rel="canonical" href="http://www.webmonx.com/" />
+<!-- core CSS -->
+<link href="http://webmonx.com/includes/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://webmonx.com/includes/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://webmonx.com/includes/css/animate.min.css" rel="stylesheet">
+<link href="http://webmonx.com/includes/css/main.css" rel="stylesheet">
+<link href="http://webmonx.com/includes/css/responsive.css" rel="stylesheet">
+<link href="http://webmonx.com/includes/css/hover.css" rel="stylesheet">
+<link rel="stylesheet" href="http://webmonx.com/includes/tabs/css/style.css" />
+<link rel="stylesheet" href="http://webmonx.com/includes/tabs/css/style1.css" />
+
+<link rel="stylesheet" type="text/css" href="http://webmonx.com/includes/css/component.css" />
+<link rel="stylesheet" href="http://webmonx.com/includes/search/jquery.typeahead.min.css">
+<script src="http://webmonx.com/includes/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+var baseurl='http://webmonx.com/';
+$(function(){
+	$("#sesscity").unbind().on("change",function(){
+		var val= $(this).val();
+
+		if(val != '')
+		{
+			window.location.href=baseurl+"index.php/home/setAjaxCityDefault/"+val;
+		}
+	});
+});
+</script>
+<script>
+$(function(){
+    if ($(window).width() < 992) {
+      $(".navbar-collapse>ul>li>a, .navbar-collapse ul.sub-menu>li>a").on("click", function() {
+        var element = $(this).parent("li");
+        if (element.hasClass("open")) {
+          element.removeClass("open");
+          element.find("li").removeClass("open");
+          element.find("ul").slideUp(500,"linear");
+        }
+        else {
+          element.addClass("open");
+          element.children("ul").slideDown();
+          element.siblings("li").children("ul").slideUp();
+          element.siblings("li").removeClass("open");
+          element.siblings("li").find("li").removeClass("open");
+          element.siblings("li").find("ul").slideUp();
+        }
+      });
+    }
+});
+</script>
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!--/head-->
+
+<body class="homepage">
+<header id="header" class=" navbar-fixed-top">
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-4 hidden-xs">
+          <div class="top-number">
+          <ul class="social-share">
+		            <li><a href="https://www.facebook.com/webmonxwebsolutions" target="_blank" alt="Facebook"><i class="fa fa-facebook"></i></a></li>
+			          <li><a href="https://twitter.com/webmonxx" target="_blank" alt="Twitter"><i class="fa fa-twitter"></i></a></li>
+			          <li><a href="https://www.linkedin.com/company/webmonx" target="_blank" alt="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+			          <li><a href="https://plus.google.com/+Webmonxwebdesigninghyderabad" target="_blank" alt="Google Plus"><i class="fa fa-google-plus"></i></a></li>
+
+          </ul>
+           <!-- <p> Letâ€™s talk: +91 - 9395307307</p>-->
+            <!---->
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="top-nav pull-right">
+
+            <ul class="nav navbar-nav">
+            <li>
+            			<select name="cityid" id="sesscity">
+							<option selected="selected" value="1">Hyderabad</option>
+							<option  value="2">Bengaluru</option>
+							<option  value="3">Chennai</option>
+						</select>
+			            </li>
+            <li><a href=""> Let's talk: +040 - 40268570</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.container-->
+  </div>
+  <!--/.top-bar-->
+
+  <nav class="navbar navbar-inverse" role="banner">
+    <div class="container mb-p-r">
+      <div class="navbar-header col-sm-3 col-md-3 col-lg-3 col-xs-12 mb-p-r">
+			<button type="button" class="navbar-toggle collapsed action-nav" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="background-color:#000;">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://webmonx.com/"><img src="http://webmonx.com/includes/images/1537336690_logo.png" alt="logo"></a>
+		</div>
+		<div id="navbar" class="collapse navbar-collapse col-sm-9 col-md-9 col-lg-9 col-xs-12 mb-pull-right">
+				<ul class="nav navbar-nav navbar-right home1 home1-nav mainmenus">
+					<li><a href="http://webmonx.com/#about">About Us</a></li>
+					<li><a href="http://webmonx.com/#process">Process</a></li>
+					<li><a href="http://webmonx.com/portfolio">Portfolio</a></li>
+					<li class="mchildren ">
+						<a href="javascript:;" class="parent-a">Services <span class="caret"></span></a>
+						<ul class="sub-menu">
+													<li>
+								<a href="javascript:;">Web Design</a>
+								<ul class="sub-menu sub-menu-level">
+																  <li><a href="http://webmonx.com/hyderabad/Web-design-and-development">Web Designing</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/website-design">Website Design</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/responsive-web-design">Responsive Web Design</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/ui-ux-design-services">UI/UX Design Services</a></li>
+
+								</ul>
+							</li>
+													<li>
+								<a href="javascript:;">Application Development</a>
+								<ul class="sub-menu sub-menu-level">
+																  <li><a href="http://webmonx.com/hyderabad/web-application-development">Web Application Development</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/custom-webapplication">Custom Web Application / ERP / CRM</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/mobile-application">Mobile Application</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/ecommerce-web-development-hyderabad">E-Commerce Application Development</a></li>
+
+								</ul>
+							</li>
+													<li>
+								<a href="javascript:;">Technologies</a>
+								<ul class="sub-menu sub-menu-level">
+																  <li><a href="http://webmonx.com/hyderabad/amazon-web-services">Amazon Web Services</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/mean-stack">Mean Stack</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/python">Python</a></li>
+																  <li><a href="http://webmonx.com/hyderabad/open-source">Open Source</a></li>
+
+								</ul>
+							</li>
+												</ul>
+					</li>
+					<li><a href="http://webmonx.com/blog">Blog</a></li>
+					<li><a href="http://webmonx.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+    </div>
+    <!--/.container-->
+  </nav>
+  <!--/nav-->
+
+</header>
+
+   <div class="container-fluid" style="margin-top:8%;">
+      <div class="row">
+         <div class="container">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
+            {% block content %}
+               Body content
+            {% endblock %}
+            </div>
+         </div>
+      </div>
+    </div>
+   </body>
+</html>
